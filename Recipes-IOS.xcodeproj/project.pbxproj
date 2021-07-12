@@ -9,10 +9,17 @@
 /* Begin PBXBuildFile section */
 		C0748EDA2698C20A00C00498 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0748ED92698C20A00C00498 /* AppDelegate.swift */; };
 		C0748EDC2698C20A00C00498 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0748EDB2698C20A00C00498 /* SceneDelegate.swift */; };
-		C0748EDE2698C20A00C00498 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0748EDD2698C20A00C00498 /* ViewController.swift */; };
+		C0748EDE2698C20A00C00498 /* RecipesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0748EDD2698C20A00C00498 /* RecipesListViewController.swift */; };
 		C0748EE12698C20A00C00498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0748EDF2698C20A00C00498 /* Main.storyboard */; };
 		C0748EE32698C20B00C00498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0748EE22698C20B00C00498 /* Assets.xcassets */; };
 		C0748EE62698C20B00C00498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0748EE42698C20B00C00498 /* LaunchScreen.storyboard */; };
+		C0748F152698E0B300C00498 /* RecipesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0748F142698E0B300C00498 /* RecipesResponse.swift */; };
+		C0748F1B2698E58F00C00498 /* RecipesListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0748F1A2698E58F00C00498 /* RecipesListPresenter.swift */; };
+		C0748F1D2698E5B900C00498 /* RecipesListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0748F1C2698E5B900C00498 /* RecipesListRepository.swift */; };
+		C0748F202698F2E300C00498 /* RecipesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0748F1F2698F2E300C00498 /* RecipesClient.swift */; };
+		C0748F222698F75E00C00498 /* ResponseMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0748F212698F75E00C00498 /* ResponseMapper.swift */; };
+		C0748F242698FDDD00C00498 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0748F232698FDDD00C00498 /* Request.swift */; };
+		C0748F282699096200C00498 /* RecipesListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0748F272699096200C00498 /* RecipesListRequest.swift */; };
 		F730EC92A94C3D8CD2D67B6D /* libPods-Recipes-IOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F5FEF09CBD1C0BD296E1B6 /* libPods-Recipes-IOS.a */; };
 /* End PBXBuildFile section */
 
@@ -23,11 +30,18 @@
 		C0748ED62698C20A00C00498 /* Recipes-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipes-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0748ED92698C20A00C00498 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0748EDB2698C20A00C00498 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C0748EDD2698C20A00C00498 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0748EDD2698C20A00C00498 /* RecipesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListViewController.swift; sourceTree = "<group>"; };
 		C0748EE02698C20A00C00498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0748EE22698C20B00C00498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0748EE52698C20B00C00498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0748EE72698C20B00C00498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0748F142698E0B300C00498 /* RecipesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesResponse.swift; sourceTree = "<group>"; };
+		C0748F1A2698E58F00C00498 /* RecipesListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListPresenter.swift; sourceTree = "<group>"; };
+		C0748F1C2698E5B900C00498 /* RecipesListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListRepository.swift; sourceTree = "<group>"; };
+		C0748F1F2698F2E300C00498 /* RecipesClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesClient.swift; sourceTree = "<group>"; };
+		C0748F212698F75E00C00498 /* ResponseMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseMapper.swift; sourceTree = "<group>"; };
+		C0748F232698FDDD00C00498 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		C0748F272699096200C00498 /* RecipesListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,15 +86,70 @@
 		C0748ED82698C20A00C00498 /* Recipes-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				C0748F1E2698F2CD00C00498 /* Network */,
+				C0748EED2698D28500C00498 /* RecipesList */,
 				C0748ED92698C20A00C00498 /* AppDelegate.swift */,
 				C0748EDB2698C20A00C00498 /* SceneDelegate.swift */,
-				C0748EDD2698C20A00C00498 /* ViewController.swift */,
 				C0748EDF2698C20A00C00498 /* Main.storyboard */,
 				C0748EE22698C20B00C00498 /* Assets.xcassets */,
 				C0748EE42698C20B00C00498 /* LaunchScreen.storyboard */,
 				C0748EE72698C20B00C00498 /* Info.plist */,
 			);
 			path = "Recipes-IOS";
+			sourceTree = "<group>";
+		};
+		C0748EED2698D28500C00498 /* RecipesList */ = {
+			isa = PBXGroup;
+			children = (
+				C0748EF32698D30200C00498 /* Model */,
+				C0748EF22698D2FC00C00498 /* View */,
+				C0748EF12698D2D400C00498 /* Repositery */,
+				C0748EF02698D2C000C00498 /* Presenter */,
+			);
+			path = RecipesList;
+			sourceTree = "<group>";
+		};
+		C0748EF02698D2C000C00498 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C0748F1A2698E58F00C00498 /* RecipesListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C0748EF12698D2D400C00498 /* Repositery */ = {
+			isa = PBXGroup;
+			children = (
+				C0748F1C2698E5B900C00498 /* RecipesListRepository.swift */,
+				C0748F272699096200C00498 /* RecipesListRequest.swift */,
+			);
+			path = Repositery;
+			sourceTree = "<group>";
+		};
+		C0748EF22698D2FC00C00498 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0748EDD2698C20A00C00498 /* RecipesListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0748EF32698D30200C00498 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0748F142698E0B300C00498 /* RecipesResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C0748F1E2698F2CD00C00498 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C0748F1F2698F2E300C00498 /* RecipesClient.swift */,
+				C0748F212698F75E00C00498 /* ResponseMapper.swift */,
+				C0748F232698FDDD00C00498 /* Request.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		C262C3C53FFE440220F7092C /* Frameworks */ = {
@@ -187,8 +256,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0748EDE2698C20A00C00498 /* ViewController.swift in Sources */,
+				C0748F152698E0B300C00498 /* RecipesResponse.swift in Sources */,
+				C0748F1D2698E5B900C00498 /* RecipesListRepository.swift in Sources */,
+				C0748F1B2698E58F00C00498 /* RecipesListPresenter.swift in Sources */,
+				C0748F222698F75E00C00498 /* ResponseMapper.swift in Sources */,
+				C0748EDE2698C20A00C00498 /* RecipesListViewController.swift in Sources */,
+				C0748F282699096200C00498 /* RecipesListRequest.swift in Sources */,
 				C0748EDA2698C20A00C00498 /* AppDelegate.swift in Sources */,
+				C0748F202698F2E300C00498 /* RecipesClient.swift in Sources */,
+				C0748F242698FDDD00C00498 /* Request.swift in Sources */,
 				C0748EDC2698C20A00C00498 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

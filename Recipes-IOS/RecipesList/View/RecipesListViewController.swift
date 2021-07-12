@@ -7,8 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class RecipesListViewController: UIViewController {
+    
+    let presenter = RecipesListPresenter()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -16,5 +18,12 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func TestButtonClick(_ sender: Any) {
+        presenter.loadApi()
+    }
+    
 }
+
+
+
 
